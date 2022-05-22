@@ -9,6 +9,6 @@ pipeline{
   }
 }
 def getTerraformPath(){
-  def tfVpc = tool name: 'Terraform-VPC', type: 'terraform'
+  def tfVpc = tool name: 'terraform ', type: 'terraform'
   return tfVpc
 }
