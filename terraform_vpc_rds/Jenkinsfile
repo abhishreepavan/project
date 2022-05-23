@@ -3,13 +3,12 @@ pipeline{
  tools {
   terraform 'terraform '
   }
-}
   stages{
     stage('terraform init'){
       steps{
         sh "terraform init"
       }
-    }
+    } 
+  }
 }
-
 
