@@ -10,6 +10,6 @@ pipeline{
         sh "terraform init"
       }
     }
-  }
 }
+
 
